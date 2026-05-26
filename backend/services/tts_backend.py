@@ -1042,6 +1042,9 @@ _LAZY_REGISTRY: dict[str, tuple[str, str]] = {
     # this module for TTSBackend). The class is resolved on first
     # attribute access via the LazyRegistry below.
     "supertonic3": ("engines.supertonic3", "Supertonic3Backend"),
+    # HossAI Sonic V3 — Arabic-first neural TTS with prosody control.
+    # Lazy to avoid pulling the full Sonic V3 pipeline on startup.
+    "sonic_v3": ("engines.sonic_v3", "SonicV3Backend"),
 }
 
 
