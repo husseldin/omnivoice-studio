@@ -1,3 +1,5 @@
+> **ARCHIVED 2026-11 - superseded by none.** Moved from HossAI-Labs to husseldin and archived read-only. Full backup bundle: release `backup-20261124`.
+
 <div align="center">
   <img src="docs/logo.png" alt="OmniVoice Logo" width="120" />
   <h1>OmniVoice Studio</h1>
